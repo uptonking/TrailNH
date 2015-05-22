@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">宁海登山</string>
+
+    <string name="tv_logo1">宁海县</string>
+    <string name="tv_logo2">登山健身步道系统</string>
+
+    <string name="url_testtiled">http://cache1.arcgisonline.cn/ArcGIS/rest/services/ChinaOnlineCommunity/MapServer</string>
+    <string name="url_testdynamic">http://sampleserver1.arcgisonline.com/ArcGIS/rest/services/Specialty/ESRI_StateCityHighway_USA/MapServer</string>
+    <!--电子地图URL-->
+    <string name="url_mapall">http://www.nbmap.gov.cn/ArcGIS/rest/services/mapall/MapServer/</string>
+    <!--登山数据图URL-->
+    <string name="url_nhdatamap">http://www.nbmap.gov.cn/ArcGIS/rest/services/NHDATA/MapServer/</string>
+    <!--影像地图URL-->
+    <string name="url_maprs">http://www.nbmap.gov.cn/ArcGIS/rest/services/maprs/MapServer/</string>
+
+    <string name="OBJECTID">OBJECTID</string>
+    <string name="NAME">NAME</string>
+    <string name="TYPE">TYPE</string>
+    <string name="IMAGE">IMAGE</string>
+    <string name="SHAPE">SHAPE</string>
+
+
+
+</resources>

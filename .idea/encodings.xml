@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/gestureimageview" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/imageloadlibrary" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/nhtrail/libs" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/java/com/kingoo/nhtrail/adapter/CommentAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/java/com/kingoo/nhtrail/news/Blog.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/java/com/kingoo/nhtrail/news/BlogContent.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/java/com/kingoo/nhtrail/news/Blogger.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/java/com/kingoo/nhtrail/news/Comment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/java/com/kingoo/nhtrail/news/DateUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/java/com/kingoo/nhtrail/news/FileUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/java/com/kingoo/nhtrail/news/MyTagHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/res/anim" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/res/layout" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/res/layout-sw550dp-large" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/res/layout-v9" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/res/layout/activity_main.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/res/values/umeng_common_strings.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/res/values/umeng_socialize_colors.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/res/values/umeng_socialize_facebook_strings.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/res/values/umeng_socialize_laiwang_strings.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/res/values/umeng_socialize_strings.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/res/values/umeng_socialize_style.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/nhtrail/src/main/res/values/umeng_update_string.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/settings.gradle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/slidingmenu_library" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

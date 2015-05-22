@@ -1,0 +1,6 @@
+include ':nhtrail'
+include ':xListView'
+include ':viewPagerlibrary'
+include ':imageloadlibrary'
+include ':gestureimageview'
+include ':slidingmenu_library'

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/relative_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_weather"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/weather"/>
+        
+        <LinearLayout
+            android:id="@+id/linear_city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+            <ImageView
+                android:id="@+id/weather_city_left"
+                android:src="@drawable/weather_city_title_arrow_left"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+            <EditText
+                android:id="@+id/et_city_name"
+                android:hint="请输入城市名"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="true"
+                android:inputType="text"
+                android:textSize="10dp"/>
+
+            <!--<TextView
+                android:id="@+id/tv_city_name"
+                android:text="宁海县"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>-->
+
+            <ImageView
+                android:id="@+id/weather_city_right"
+                android:src="@drawable/weather_city_title_arrow_right"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+            </LinearLayout>
+        
+        <ImageView
+            android:id="@+id/weather_city_add"
+            android:src="@drawable/weather_city_add"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/relative_middle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="28dp"
+    android:layout_above="@+id/table_bottom"
+    android:layout_alignParentStart="true">
+    <TextView
+        android:id="@+id/tv_current_temperature"
+        android:text="23℃"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:id="@+id/tv_current_type"
+        android:text="晴"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_below="@+id/tv_current_temperature"/>
+
+    <TextView
+        android:id="@+id/tv_current_wind"
+        android:text="微风"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_below="@+id/tv_current_type"/>
+
+    <TextView
+        android:id="@+id/tv_current_date"
+        android:text="2014-04-28 Tue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/tv_current_wind"/>
+    </RelativeLayout>
+
+    <TableLayout
+        android:id="@+id/table_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <TableRow>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                <TextView
+                    android:id="@+id/tv_date_2"
+                    android:text="周六"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"/>
+                <ImageView
+                    android:id="@+id/iv_icon_2"
+                    android:src="@drawable/weather_icon_2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:id="@+id/tv_type_2"
+                    android:text="多云转阴"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:id="@+id/tv_temperature_2"
+                    android:text="24 ~ 13℃"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                <TextView
+                    android:id="@+id/tv_date_3"
+                    android:text="周日"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"/>
+                <ImageView
+                    android:id="@+id/iv_icon_3"
+                    android:src="@drawable/weather_icon_3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:id="@+id/tv_type_3"
+                    android:text="大到暴雨"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:id="@+id/tv_temperature_3"
+                    android:text="24 ~ 13℃"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                <TextView
+                    android:id="@+id/tv_date_4"
+                    android:text="周一"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"/>
+                <ImageView
+                    android:id="@+id/iv_icon_4"
+                    android:src="@drawable/weather_icon_4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:id="@+id/tv_type_4"
+                    android:text="阴"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:id="@+id/tv_temperature_4"
+                    android:text="24 ~ 13℃"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </TableRow>
+        </TableLayout>
+
+</RelativeLayout>

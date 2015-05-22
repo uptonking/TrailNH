@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TrailNH.iml" filepath="$PROJECT_DIR$/TrailNH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestureimageview/gestureimageview.iml" filepath="$PROJECT_DIR$/gestureimageview/gestureimageview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageloadlibrary/imageloadlibrary.iml" filepath="$PROJECT_DIR$/imageloadlibrary/imageloadlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nhtrail/nhtrail.iml" filepath="$PROJECT_DIR$/nhtrail/nhtrail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingmenu_library/slidingmenu_library.iml" filepath="$PROJECT_DIR$/slidingmenu_library/slidingmenu_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewPagerlibrary/viewPagerlibrary.iml" filepath="$PROJECT_DIR$/viewPagerlibrary/viewPagerlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xListView/xListView.iml" filepath="$PROJECT_DIR$/xListView/xListView.iml" />
+    </modules>
+  </component>
+</project>
